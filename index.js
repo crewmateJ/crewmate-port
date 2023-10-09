@@ -1,4 +1,4 @@
-const serverUrl = (process) ? process.env.SERVER_URL : NEXT_PUBLIC_SERVER_URL;
+const serverUrl = "http://54.165.51.152:3001";
 
 async function getUsers() {
   try {
@@ -35,6 +35,6 @@ async function showData(data) {
   document.getElementById("posts").innerHTML = posts;
 }
 
-(async () => {
-  console.log(await getUsers());
-})();
+// (async () => {
+//   console.log(await getUsers());
+// })();
