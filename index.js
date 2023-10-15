@@ -1,4 +1,4 @@
-const serverUrl = "http://54.165.51.152:3001";
+const serverUrl = ""; // hardcoded writings for now
 
 async function getUsers() {
   try {
