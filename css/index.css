@@ -152,6 +152,7 @@ hr {
   font-size: 1.4rem;
   font-weight: 400;
   color: #000;
+  max-width:780px;
 }
 
 .body_top {
